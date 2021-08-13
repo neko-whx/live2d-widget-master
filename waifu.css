@@ -8,7 +8,7 @@
 	left: 0;
 	margin-left: -100px;
 	padding: 5px 2px 5px 5px;
-	position: right;
+	position: fixed;
 	transition: margin-left 1s;
 	width: 60px;
 	writing-mode: vertical-rl;
@@ -50,7 +50,7 @@
 	opacity: 0;
 	overflow: hidden;
 	padding: 5px 10px;
-	position: right;
+	position: absolute;
 	text-overflow: ellipsis;
 	transition: opacity 1s;
 	width: 250px;
@@ -69,7 +69,7 @@
 #live2d {
 	cursor: grab;
 	height: 300px;
-	position: fixed;
+	position: relative;
 	width: 300px;
 }
 
@@ -80,7 +80,7 @@
 #waifu-tool {
 	color: #aaa;
 	opacity: 0;
-	position: right;
+	position: absolute;
 	right: -10px;
 	top: 70px;
 	transition: opacity 1s;
